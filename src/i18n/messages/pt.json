@@ -1,0 +1,21 @@
+{
+  "HomePage": {
+    "title": "Olá mundo!"
+  },
+  "Nav": {
+    "contact": "Contato",
+    "home": "Início",
+    "projects": "Projetos",
+    "skills": "Habilidades"
+  },
+  "ThemeToggle": {
+    "dark": "Escuro",
+    "light": "Claro",
+    "toggleTheme": "Alternar tema"
+  },
+  "LocaleToggle": {
+    "en": "Inglês",
+    "pt": "Português",
+    "toggleLocale": "Alternar idioma"
+  }
+}
