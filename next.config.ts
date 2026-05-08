@@ -3,6 +3,8 @@ import createNextIntlPlugin from 'next-intl/plugin';
 
 const nextConfig: NextConfig = {
   /* config options here */
+  output: 'export',
+  basePath: process.env.PAGES_BASE_PATH,
   reactCompiler: true,
 };
 
