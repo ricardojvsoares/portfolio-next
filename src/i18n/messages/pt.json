@@ -1,10 +1,27 @@
 {
   "HomePage": {
-    "title": "Olá mundo!",
-    "header": "header",
-    "headerDescription": "header_description",
-    "myWork": "My work",
-    "contactMe": "Contact me"
+    "header": "A construir o futuro da web",
+    "headerDescription": "Sou um desenvolvedor full-stack especializado em experiências digitais de alto desempenho. Projeto arquiteturas de backend robustas e crio interfaces de usuário precisas e minimalistas.",
+    "myWork": "O meu trabalho",
+    "contactMe": "Contate-me",
+    "latestBlog": "Último blog",
+    "availableForOpportunities": "Disponível para novas oportunidades",
+    "featuredProjectsHighlight": "Projetos em destaque",
+    "viewAll": "Ver todos"
+  },
+  "FeaturedProject": {
+    "boilerplate": {
+      "title": "Boilerplate",
+      "description": "Um pipeline de análise de alta capacidade que processa milhões de eventos por segundo com visualização de latência sub-segundo."
+    },
+    "auraUI": {
+      "title": "Aura UI Library",
+      "description": "Uma biblioteca de componentes acessível e headless construída para aplicações empresariais modernas, focando em desempenho e flexibilidade."
+    },
+    "cloudScale": {
+      "title": "CloudScale Infrastructure",
+      "description": "Módulos Terraform automatizados para provisionar clusters Kubernetes altamente disponíveis em ambientes multi-cloud."
+    }
   },
   "Nav": {
     "contact": "Contato",

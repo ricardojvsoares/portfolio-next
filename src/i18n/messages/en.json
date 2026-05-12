@@ -1,11 +1,27 @@
 {
   "HomePage": {
-    "title": "Hello world!",
-    "header": "header",
-    "headerDescription": "header_description",
+    "header": "Building the future of the web",
+    "headerDescription": "I'm a full-stack developer specializing in high-performance digital experiences. I engineer robust backend architectures and craft precise, minimalist user interfaces. ",
     "myWork": "My work",
     "contactMe": "Contact me",
-    "latestBlog": "Latest blog"
+    "latestBlog": "Latest blog",
+    "availableForOpportunities": "Available for new opportunities",
+    "featuredProjectsHighlight": "Featured projects",
+    "viewAll": "View all"
+  },
+  "FeaturedProject": {
+    "boilerplate": {
+      "title": "Boilerplate",
+      "description": "A high-throughput analytics pipeline processing millions of events per second with sub-second latency visualization."
+    },
+    "auraUI": {
+      "title": "Aura UI Library",
+      "description": "An accessible, headless component library built for modern enterprise applications focusing on performance and flexibility."
+    },
+    "cloudScale": {
+      "title": "CloudScale Infrastructure",
+      "description": "Automated terraform modules to provision highly available Kubernetes clusters across multi-cloud environments."
+    }
   },
   "Nav": {
     "contact": "Contact",

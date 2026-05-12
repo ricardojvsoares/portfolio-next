@@ -1,4 +1,3 @@
-import { Button } from '@/components';
 import Link from 'next/link';
 
 type LatestBlogsProps = {
@@ -9,13 +8,15 @@ type LatestBlogsProps = {
 
 function LatestBlogs({ title, href, date }: LatestBlogsProps) {
   return (
-    <Button variant="outline" className="w-full justify-between" asChild>
-      <Link href={href} className="flex w-full items-center justify-between">
-        <h3 className="text-sm font-medium">{title}</h3>
-
-        <span className="text-sm">{date}</span>
-      </Link>
-    </Button>
+    <Link
+      href={href}
+      className="group hover:border-border hover:bg-accent border-border/50 flex w-full items-center justify-between rounded-lg border px-4 py-3.5 transition-colors"
+    >
+      <h3 className="text-foreground group-hover:text-primary text-sm font-semibold transition-colors">
+        {title}
+      </h3>
+      <span className="text-muted-foreground ml-4 shrink-0 text-xs">{date}</span>
+    </Link>
   );
 }
 
