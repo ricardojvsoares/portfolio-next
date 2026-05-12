@@ -10,7 +10,7 @@ function Nav({ children }: { children: React.ReactNode }) {
   const [open, setOpen] = useState(false);
 
   const links = [
-    { href: '/', label: t('home') },
+    { href: '/home', label: t('home') },
     { href: '/skills', label: t('skills') },
     { href: '/projects', label: t('projects') },
     { href: '/contact', label: t('contact') },

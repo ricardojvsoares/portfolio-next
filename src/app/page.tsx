@@ -1,10 +1,5 @@
-import { useTranslations } from 'next-intl';
+import { redirect } from 'next/navigation';
 
 export default function HomePage() {
-  const t = useTranslations('HomePage');
-  return (
-    <div className="flex h-1000 w-full items-center justify-center">
-      <h1>{t('title')}</h1>
-    </div>
-  );
+  redirect('/home');
 }
