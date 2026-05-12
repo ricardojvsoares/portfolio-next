@@ -1,6 +1,10 @@
 {
   "HomePage": {
-    "title": "Olá mundo!"
+    "title": "Olá mundo!",
+    "header": "header",
+    "headerDescription": "header_description",
+    "myWork": "My work",
+    "contactMe": "Contact me"
   },
   "Nav": {
     "contact": "Contato",

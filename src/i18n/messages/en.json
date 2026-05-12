@@ -1,6 +1,11 @@
 {
   "HomePage": {
-    "title": "Hello world!"
+    "title": "Hello world!",
+    "header": "header",
+    "headerDescription": "header_description",
+    "myWork": "My work",
+    "contactMe": "Contact me",
+    "latestBlog": "Latest blog"
   },
   "Nav": {
     "contact": "Contact",
