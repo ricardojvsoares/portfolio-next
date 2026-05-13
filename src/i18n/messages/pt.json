@@ -1,11 +1,14 @@
 {
+  "Components": {
+    "availableForOpportunities": "Disponível para novas oportunidades",
+    "notAvailableForOpportunities": "Não disponível para novas oportunidades"
+  },
   "HomePage": {
     "header": "A construir o futuro da web",
     "headerDescription": "Sou um desenvolvedor full-stack especializado em experiências digitais de alto desempenho. Projeto arquiteturas de backend robustas e crio interfaces de usuário precisas e minimalistas.",
     "myWork": "O meu trabalho",
     "contactMe": "Contate-me",
     "latestBlog": "Último blog",
-    "availableForOpportunities": "Disponível para novas oportunidades",
     "featuredProjectsHighlight": "Projetos em destaque",
     "viewAll": "Ver todos"
   },

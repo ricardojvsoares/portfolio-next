@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { FeaturedProject, LatestBlogs } from './_components';
-import { Button, Separator } from '@/components';
+import { Available, Button, Separator } from '@/components';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 
@@ -10,10 +10,7 @@ export default function HomePage() {
   return (
     <div className="mx-auto max-w-5xl px-6">
       <section className="flex min-h-[50vh] flex-col justify-center gap-6">
-        <div className="border-border bg-muted flex w-fit items-center gap-2 rounded-full border px-3 py-1">
-          <span className="status-dot status-dot--available" />
-          <span className="label-caps text-muted-foreground">{t('availableForOpportunities')}</span>
-        </div>
+        <Available />
 
         <h1 className="text-gradient max-w-2xl leading-[1.1]">{t('header')}</h1>
 
