@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { NextIntlClientProvider } from 'next-intl';
 import { ThemeProvider, Nav } from '@/components';
+import { DotPattern } from '@/components';
 
 export const metadata: Metadata = {
   title: 'Ricardo Soares Portfolio',
@@ -22,7 +23,9 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <Nav>{children}</Nav>
+            <DotPattern>
+              <Nav> {children}</Nav>
+            </DotPattern>
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
