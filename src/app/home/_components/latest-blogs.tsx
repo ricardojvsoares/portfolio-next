@@ -20,4 +20,4 @@ function LatestBlogs({ title, href, date }: LatestBlogsProps) {
   );
 }
 
-export default LatestBlogs;
+export { LatestBlogs };
