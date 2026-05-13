@@ -1,7 +1,6 @@
 import { useTranslations } from 'next-intl';
-import { FeaturedProject } from './_components/featured-project';
+import { FeaturedProject, LatestBlogs } from './_components';
 import { Button, Separator } from '@/components';
-import LatestBlogs from './_components/latest-blogs';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 
@@ -9,8 +8,8 @@ export default function HomePage() {
   const t = useTranslations('HomePage');
 
   return (
-    <div className="mx-auto max-w-5xl px-6 py-10">
-      <section className="flex min-h-[50vh] flex-col justify-center gap-6 py-16">
+    <div className="mx-auto max-w-5xl px-6">
+      <section className="flex min-h-[50vh] flex-col justify-center gap-6">
         <div className="border-border bg-muted flex w-fit items-center gap-2 rounded-full border px-3 py-1">
           <span className="status-dot status-dot--available" />
           <span className="label-caps text-muted-foreground">{t('availableForOpportunities')}</span>
